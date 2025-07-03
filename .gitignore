@@ -1,0 +1,77 @@
+# ---- BACKEND: Spring Boot ----
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+**/out/
+
+# Logs
+*.log
+logs/
+*.pid
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.sw?
+.DS_Store
+
+# OS-specific
+Thumbs.db
+ehthumbs.db
+*.DS_Store
+*.class
+
+# Spring Boot devtools
+.spring-boot-devtools.properties
+
+# Env / Secrets
+.env
+*.env
+application-dev.yml
+application-dev.properties
+application-local.yml
+application-local.properties
+
+# ---- FRONTEND: Vue.js ----
+
+# Node.js
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.vite/
+
+# Env / Secrets
+.env
+.env.*.local
+
+# IDEs / tools
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS-specific
+.DS_Store
+Thumbs.db
